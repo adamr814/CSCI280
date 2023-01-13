@@ -1,1 +1,1 @@
-# Repo to hold all files for CSCI 280 Course
+Repo To Hold All Files from CSCI 280 Course
