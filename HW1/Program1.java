@@ -10,14 +10,14 @@ import java.util.Scanner;
 public class Program1{
     public static void sumNum(int value){
         int sum = 0;
-        for(int i=value; i<(value+20); i++){
+        for(int i=value; i<=(value+20); i++){
             sum += i;}
         System.out.println("Total: " + sum);}
     
     public static void main(String[] args){
         Scanner keyboard;
         keyboard = new Scanner(System.in);
-        System.out.println("Enter an integer: ");
+        System.out.print("Enter an integer: ");
         int valid = 0;
         while(valid != 1){
             int value = keyboard.nextInt();    
