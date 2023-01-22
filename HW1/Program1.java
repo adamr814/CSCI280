@@ -8,19 +8,11 @@ Due: Jan 25th 2023
 import java.util.Scanner;
 
 public class Program1{
-    public static void sumNUM(int value){
-        int i = value;
-        for(i < (value + 20); i++){
-            
-        }
-    }
-    
-    
-    /*public static void sumNum(int value){
+    public static void sumNum(int value){
         int sum = 0;
-        for(int i=value; i>(value+20); i++){
+        for(int i=value; i<(value+20); i++){
             sum += i;}
-        System.out.println("Total: " + sum);}*/
+        System.out.println("Total: " + sum);}
     
     public static void main(String[] args){
         Scanner keyboard;
@@ -33,6 +25,6 @@ public class Program1{
                 System.out.println("* * * * * * * * * * * * * * * * * * * * * * * *\n" + "Invalid Input Please Enter A Positive Integer\n" + "* * * * * * * * * * * * * * * * * * * * * * * *\n");}
             else{
                 System.out.println("\nSelected Integer: " + value);
-                valid = 1;}
-                sumNum(value);    
+                valid = 1;
+                sumNum(value);}    
         keyboard.close();}}}
