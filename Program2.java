@@ -13,12 +13,12 @@ public class Program2{
         int sum = 0;
         String val="";
         while(val.equals("")){
-            System.out.print("\nEnter a positive Integer (Type Stop Char to Quit): ");
+            System.out.print("\nEnter a positive Integer (Type '" + StopChr + "' to Quit): ");
             val = keyboard.nextLine();
             if(val.equalsIgnoreCase(StopChr)){break;}
             else if(val.matches("\\-?\\+?\\d+")){
                 if(Integer.parseInt(val) < 0){
-                    System.out.println("\n*********************\nInvaild Integer\n*********************");}
+                    System.out.println("\n*********************\n   Invaild Integer\n*********************");}
                 else{sum += Integer.parseInt(val);
                 System.out.println("Current Sum: " + sum);}}
             val="";} keyboard.close();}
