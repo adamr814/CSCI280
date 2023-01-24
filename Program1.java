@@ -21,10 +21,12 @@ public class Program1{
         int valid = 0;
         while(valid != 1){
             int value = keyboard.nextInt();    
-            if(value < 0){
-                System.out.println("* * * * * * * * * * * * * * * * * * * * * * * *\n" + "Invalid Input Please Enter A Positive Integer\n" + "* * * * * * * * * * * * * * * * * * * * * * * *\n");}
-            else{
+            if(value >= 0){
                 System.out.println("\nSelected Integer: " + value);
                 valid = 1;
-                sumNum(value);}    
-        keyboard.close();}}}
+                sumNum(value);}  
+            else{
+                System.out.println("\n* * * * * * * * * * * * * * * * * * * * * * * *\n" +
+                "Invalid Input Please Enter A Positive Integer\n" +
+                "* * * * * * * * * * * * * * * * * * * * * * * *\n");
+                System.out.print("Enter an integer: ");}} keyboard.close();}}
