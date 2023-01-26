@@ -1,0 +1,9 @@
+Program #1
+
+Write a program that asks the user to input one integer.
+Then, using a loop, find the sum of 20 consecutive integers from the given number.
+For example, if the user input 10, the program would sum 10 + 11 + 12 + ... + 29 + 30 and print the result.
+
+Make sure to:
+• include your name and other details on the top of the source file as mentioned in the syllabus.
+• Follow requirements mentioned in the lecture “Assignment lab practices”
