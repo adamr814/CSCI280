@@ -1,0 +1,14 @@
+- Instance variables are the variables declared in classes
+- Instance variables are not automatically initalized, you get an error when compiling
+- You can define as many methods as you want in a class
+- Method is a piece of the program the performs an action specified by the code within.
+    - data type for a variable
+    - data type, name -> variable
+    - modifier, return types, method name(data type a, data type b, ...)
+    
+    ex. float calcAVG(int a, int b){
+        code...
+    }
+
+- access modifiers and non-access modifiers
+    - three types (private public and protected)
