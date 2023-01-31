@@ -11,4 +11,43 @@
     }
 
 - access modifiers and non-access modifiers
-    - three types (private public and protected)
+    - access has three types (private public and protected)
+    - non has static types
+
+ex. 
+class CsCourse{
+    //Attributes
+    int courseId;
+    int courseCredit;
+    String courseInstructor
+
+    CsCourse(){ // now that its declared it will output data now
+        //is method so needs curly braces
+        courseId = 280;
+        courseCredit = 6;
+        courseInstructor = "Austin" //I Guess...
+        //used to display 0 0 null
+        //now updates the information
+        String courseTerm = "Spring"; //Currently not outputting anything because its not told to print
+    }
+
+    public void displayDetails(){
+        System.out.println("Course Details" + courseId + courseCredit + courseInstructor + courseTerm); //after course term is added here its called but its not a local variable in the constructor so it errors out.
+        //
+    }
+
+
+    public static void main (String[] args){
+        System.out.println("Welcome to your program");
+        int courseId;
+        CsCourse myCourse = new CsCourse(); <- cant call it if it's not declared
+        myCourse.displayDetails();
+        //myCourse.courseId = 280;
+        
+        System.out.println("Program done"); //Constructor builds all of the objects
+    }
+}
+
+
+- three types of constructors
+- name of the constructor has to be the same name as the class
