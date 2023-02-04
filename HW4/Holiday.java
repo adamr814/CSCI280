@@ -2,7 +2,7 @@
 CSCI280
 Adam Roy
 Program: 4
-Due: Feb 3st 2023
+Due: Feb 3rd 2023
 */
 
 public class Holiday{
