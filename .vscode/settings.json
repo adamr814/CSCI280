@@ -1,0 +1,26 @@
+{
+    "java.completion.filteredTypes": [
+        "java.awt.*",
+        "com.sun.*",
+        "sun.*",
+        "jdk.*",
+        "org.graalvm.*",
+        "io.micrometer.shaded.*"
+    ],
+    "java.completion.importOrder": [
+
+        "#",
+        "java",
+        "javax",
+        "org",
+        "com",
+        ""
+    ],
+    "java.import.exclusions": [
+    
+        "**/node_modules/**",
+        "**/.metadata/**",
+        "**/archetype-resources/**",
+        "**/META-INF/maven/**"
+    ]
+}

@@ -1,0 +1,22 @@
+Write a program to create a class called Holiday. The object of the class Holiday represents a holiday
+during the year. This class has three instance variables:
+• name, which is a String representing the name of the holiday
+• day, which is an int representing the day of the month of the holiday
+• month, which is a String representing the month the holiday is in
+
+1. Write a constructor for the class Holiday, which takes a String representing the name, an int
+representing the day, and a String representing the month as its arguments, and sets the class variables
+to these values.
+
+2. Write a No-Args constructor for the class Holiday.
+
+2. Write a method inSameMonth, which compares two instances of the class Holiday (the two instances
+of the class are the input to the method), and returns the Boolean value true if they have the same
+month, and false if they do not.
+
+3. Write a piece of code that creates a Holiday instance with the name “Independence Day”, with the
+day “4”, and with the month “July”. Create another Holiday instance with the name “Labor Day”,
+with the day “5”, and with the month “September”.
+
+4. Test your class in the main program by calling the function inSameMonth using the two instances
+created of the class Holiday
