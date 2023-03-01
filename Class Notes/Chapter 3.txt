@@ -51,3 +51,47 @@ class CsCourse{
 
 - three types of constructors
 - name of the constructor has to be the same name as the class
+
+- getters and setters they are made as a part of a class
+public int getCourseId(){
+    return courseId;
+}
+public void setCourseId(int id){
+    courseId = id;
+}
+
+
+class CsCourses{
+    private int courseId;
+    private int courseCredit;
+    private StringInstructor;
+
+    CsCourses(){
+        courseId = 0;
+        courseCredit = 123;
+        courseInstructor = "john";
+    }
+    CsCourses(int id, int credit, String instructor){
+        courseId = id;
+        courseCredit = credit;
+        courseInstructor = instructor;
+    }
+    //Getters
+    public int getCourseId(){
+        return courseId;
+    }
+    //Setters
+    public void setCourseId(){
+        courseid = id;
+    }
+
+    public void displayDetails(){
+        System.out...();
+    }
+}
+
+class CsCourse{
+    public static void main
+}
+
+this. is useful for eliminating confusion between method object names
