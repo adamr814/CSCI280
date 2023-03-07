@@ -1,0 +1,16 @@
+oop allows you to define new classes from existing classes (inheritence)
+
+procedural paradigm focuses on designing methods and the object oriented paradigm
+
+inheritence enables you to define a general class (i.e. a superclass) and later extend it to a more specalized class (subclasses)
+
+you use a class to model objects of the same type. different classes have some common properties and behaviors
+which can be generalized in a class that can be shared by other classes, you can define a specalized class that extends to the generalized
+class. the specalized classes inherit the properties and methods from the general class
+
+*Procedure*
+
+we represent classes in a parent child structure (they inherit the everything (methods and values) from the parent classes)
+
+a subclass will only inherit accessable data fields from a parent class (if data is of the type private/protected) protected
+data will be accessable to subclasses of the same package.
